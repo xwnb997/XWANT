@@ -13,26 +13,9 @@ about:AddParagraph("脚本为免费脚本 请勿去圈钱")
 about:AddParagraph("禁止倒卖")
 
 local Tab =Window:MakeTab({
-	Name = "公告",
+	Name = "被遗弃",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
-})
-
-
-
-Tab:AddButton({
-	Name = "复制SN脚本交流群QQ",
-	Callback = function()
-     setclipboard("1048659522")
-  	end
-})
-
-OrionLib:MakeNotification({
-	Name = "SN脚本中心",
-	Content = "欢迎使用SN-hub",
-	Image = "rbxassetid://4483345998",
-	Time = 2
-
 })
 
 local about = Window:MakeTab({
@@ -40,6 +23,7 @@ local about = Window:MakeTab({
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
+
 
 Tab:AddButton({
 	Name = "自动修机",
